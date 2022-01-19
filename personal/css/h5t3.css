@@ -1,0 +1,11 @@
+h1 {
+    color: pink;
+    border-bottom: 1px solid orange;
+    font-size: 3em;
+    margin: 1px;
+}
+
+p {
+    font-size: large;
+    border-style: solid;
+}
