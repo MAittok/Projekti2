@@ -1,22 +1,23 @@
 body {
-    background-image: url('Coffeebeanbackground.jpg');
+    background-image: url(https://www.onhisowntrip.com/wp-content/uploads/2020/08/great-coffee-bean.jpeg);
     margin: 0 10%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
+    background-size: cover;
+    color: white;
   }
   h1 {
     text-align: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 1px solid #ff5c03;
     margin-top: 0px;
-    font: bold 1.5em "Comic Sans MS";
-    color: #000000;
-    text-shadow: 0.05em 0.05em 0.1em lightslategray;
+    color: white;
+
+    text-shadow: 0.05em 0.05em 0.1em black;
   }
   h2 {
-    color: #010002;
+    color: white;
     text-align: center;
     font-size: 1em;
   }
@@ -25,20 +26,23 @@ body {
   }
   
   h3 {
-    color: #000000;
+    color: white;
     text-align: center;
     font-size: 1em;
   }
   h4 {
-    color: #000000;
+    color: white;
     text-align: center;
     font-size: 1em;
     font-style: italic;
   }
   h0 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 4em;
-    color: #000000;
+    font-family: 'The Nautigal', cursive;
+    font-size: 6em;
+    color: white;
+    text-shadow: 0.05em 0.05em 0.1em black;
+
+
   }
   
   #lokaatio {
