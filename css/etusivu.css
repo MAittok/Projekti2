@@ -13,7 +13,6 @@ body {
     border-bottom: 2px solid black;
     margin-top: 0px;
     color: white;
-
     text-shadow: 0.05em 0.05em 0.1em black;
   }
   h2 {
@@ -48,7 +47,7 @@ body {
 
   }
   h5 {
-    color: white;
+    color: rgb(17, 0, 90);
     height: 35px;
     line-height: 35px;
     text-align: center;
@@ -56,6 +55,9 @@ body {
     font-style: italic;
     border: 1px dashed #fdfdfd;
     width: 75%;
+  }
+  a {
+    color:rgb(214, 214, 214);
   }
   span {
     display: inline-block;
