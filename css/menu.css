@@ -1,29 +1,49 @@
 body {
   background-color: #fff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: center;
+  margin: 0 40px;
 }
 
-h1 {
-  color: #ff5c03;
+.pää_otsikko {
+  /* color: #ff5c03; */
+  text-align: center;
+  font-size: 3em;
 }
 h2,
 h3,
 h4,
 h5,
 h6 {
-  line-height: 5px;
-  color: #2300bf;
-  font-size: large;
+  line-height: 1px;
+  /* color: #2300bf; */
 }
-h2 img {
-  width: 5px;
-  height: 5px;
+
+.tuote_otsikko {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+.selostus {
+  border-bottom: 3px solid black;
+}
+
+p {
+  font-weight: 500;
+}
+
+.juomat {
+  /* border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px; */
 }
 
 .tuote {
   display: flex;
-  gap: 12px;
+  justify-content: space-between;
+  border-bottom: 1px solid;
 }
 
 /* @media screen and (min-width: 6px) {
