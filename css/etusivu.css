@@ -23,18 +23,21 @@ body {
   }
   h2 p {
     text-align: justify;
+    
   }
   
   h3 {
     color: white;
     text-align: center;
     font-size: 1em;
+  
   }
   h4 {
     color: white;
     text-align: center;
     font-size: 1em;
     font-style: italic;
+   
   }
   h0 {
     font-family: 'The Nautigal', cursive;
@@ -68,6 +71,7 @@ body {
   }
   #verkkokauppa {
     letter-spacing: 0.1em;
+
   }
   #varoitus {
     color: rgb(255, 25, 0);
@@ -79,6 +83,8 @@ body {
     grid-template-columns: repeat(3, 200px);
     padding-left: 480px;
     padding-right: 480px;
+    text-shadow: 0.05em 0.05em 0.1em black;
+
   }
   @media screen and (max-width: 1024px) {
     #layout {
