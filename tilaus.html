@@ -18,7 +18,7 @@
               text-transform: uppercase;
               border-bottom: 1px solid #000000;
               margin-top: 0px;
-              font: bold 1.5em "Comic Sans MS";
+              font: bold 1.2em "Comic Sans MS";
               color: #1c0972;
               text-shadow: 0.05em 0.05em 0.1em lightslategray;
             }
@@ -54,17 +54,11 @@
             #lokaatio p {
               text-align: center;
             }
-            #verkkokauppa {
-              letter-spacing: 0.1em;
-            }
-            #varoitus {
-              color: rgb(255, 25, 0);
-            }
 
             #layout {
               display: grid;
               grid-row: inherit;
-              grid-template-columns: repeat(3, 200px);
+              grid-template-columns: repeat(3, 250px);
               padding-left: 480px;
               padding-right: 480px;
             }
@@ -75,13 +69,19 @@
                 padding-right: 200px;
               }
             }
+
+            #Leivonnaiset {
+              text-align: center;
+              vertical-align: middle;
+              
+            }
                </style>
 </div>
 
         <body>
             
           <h1>
-            <p><b>Tilauslomakkeella saat tuotteemme kuljetettuna haluamaasi osoitteeseen.</b></p>
+            <p><b>Tilauslomakkeella saat tuotteemme kuljetettuna haluamaasi osoitteeseen.<br> Muista valita kuinka monta kutakin tuotetta haluat!</b></p>
           </h1>
             
             <fieldset>
@@ -97,13 +97,64 @@
                   <fieldset>
                   <h2>Leivonnainen</h2>
                   <p>Kaikkea kakuista kekseihin.</p>
-                  Mudcake <input type="checkbox" name="Leivonnainen[]" value="Mudcake"> 
-                  Porkkanakakku (G) <input type="checkbox" name="Leivonnainen[]" value="Porkkanakakku (G)"> 
-                  Juustokakku <input type="checkbox" name="Leivonnainen[]" value="Juustokakku"> 
-                  Mokkapala<input type="checkbox" name="Leivonnainen[]" value="Mokkapala">
-                  Voisilmäpulla<input type="checkbox" name="Leivonnainen[]" value="Voisilmäpulla">
-                  Kanelipulla<input type="checkbox" name="Leivonnainen[]" value="Kanelipulla">
-                  Sokerimunkki<input type="checkbox" name="Leivonnainen[]" value="Sokerimunkki">
+                  <div class="Leivonnaiset">
+                  Mudcake <input type="checkbox" name="Leivonnainen[]" value="Mudcake"> <select name="pizzas" size="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  Porkkanakakku (G) <input type="checkbox" name="Leivonnainen[]" value="Porkkanakakku (G)"> <select name="pizzas" size="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  Juustokakku <input type="checkbox" name="Leivonnainen[]" value="Juustokakku"> <select name="pizzas" size="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  Mokkapala<input type="checkbox" name="Leivonnainen[]" value="Mokkapala"><select name="pizzas" size="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  Voisilmäpulla<input type="checkbox" name="Leivonnainen[]" value="Voisilmäpulla"><select name="pizzas" size="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  Kanelipulla<input type="checkbox" name="Leivonnainen[]" value="Kanelipulla"><select name="pizzas" size="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  Sokerimunkki<input type="checkbox" name="Leivonnainen[]" value="Sokerimunkki"><select name="pizzas" size="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                  </div>
                   </fieldset>
                   <br>
 
