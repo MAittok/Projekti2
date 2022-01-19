@@ -47,6 +47,21 @@ body {
 
 
   }
+  h5 {
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    border: 2px dashed #fdfdfd;
+    width: 100%;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
   
   #lokaatio {
     font-size: 1.5em;
