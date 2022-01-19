@@ -3,16 +3,16 @@ body {
     margin: 0 10%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: center;
+    background-size: cover;
     color: white;
   }
   h1 {
     text-align: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 1px solid #ff5c03;
     margin-top: 0px;
-    font: bold 1.5em "Comic Sans MS";
     color: white;
 
     text-shadow: 0.05em 0.05em 0.1em lightslategray;
@@ -38,8 +38,8 @@ body {
     font-style: italic;
   }
   h0 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 4em;
+    font-family: 'The Nautigal', cursive;
+    font-size: 6em;
     color: white;
 
   }
