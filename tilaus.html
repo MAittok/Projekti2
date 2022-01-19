@@ -7,27 +7,24 @@
             <style>
             body {
               background-color: #fff;
-              margin: 0 10%;
-              font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-              text-align: center;
+              margin: 0 14%;
+              font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif
             }
             h1 {
               text-align: center;
               font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
               font-weight: normal;
               text-transform: uppercase;
-              border-bottom: 1px solid #000000;
               margin-top: 0px;
               font: bold 1.2em "Comic Sans MS";
               color: #1c0972;
-              text-shadow: 0.05em 0.05em 0.1em lightslategray;
             }
-            h2 {
+            legend {
               color: #2300bf;
               text-align: center;
               font-size: 1em;
             }
-            h2 p {
+            legend p {
               text-align: justify;
             }
 
@@ -55,12 +52,12 @@
               text-align: center;
             }
 
-            #layout {
+            #layout, #kuljetus {
               display: grid;
               grid-row: inherit;
-              grid-template-columns: repeat(3, 250px);
-              padding-left: 480px;
-              padding-right: 480px;
+              grid-template-columns: repeat(2, 1300px);
+              padding-left: 40px;
+              padding-right: 40px;
             }
             @media screen and (max-width: 1024px) {
               #layout {
@@ -70,10 +67,17 @@
               }
             }
 
-            #Leivonnaiset {
+            #Leivonnaiset p{
               text-align: center;
-              vertical-align: middle;
+              color: #2300bf;
               
+            }
+            #loppu {
+              text-align: center;
+            }
+
+            #kuljetus {
+            padding-left: 40px;
             }
                </style>
 </div>
@@ -83,99 +87,74 @@
           <h1>
             <p><b>Tilauslomakkeella saat tuotteemme kuljetettuna haluamaasi osoitteeseen.<br> Muista valita kuinka monta kutakin tuotetta haluat!</b></p>
           </h1>
-            
+            <div id="kuljetus">
             <fieldset>
             <form action="etusivu.html" method="POST">
+              <legend>Kuljetustiedot</legend>
               <li>Nimi: <input type="text" name="asiakasnimi"></li>
               <li>Osoite: <input type="text" name="osoite"></li>
               <li>Puhelin: <input type="text" name="puhelin"></li>
               <li>Sähköposti: <input type="text" name="posti"></li>
-              <li>Lisätietoja: <br><textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Maksmissaan 400 kirjainta."> </textarea></li>
+              Lisätietoja: <br><textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Maksmissaan 400 kirjainta."> </textarea>
             </fieldset>
+            </div>  
               <div id="layout">
 
-                  <fieldset>
-                  <h2>Leivonnainen</h2>
-                  <p>Kaikkea kakuista kekseihin.</p>
                   <div class="Leivonnaiset">
-                  Mudcake <input type="checkbox" name="Leivonnainen[]" value="Mudcake"> <select name="pizzas" size="1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                  Porkkanakakku (G) <input type="checkbox" name="Leivonnainen[]" value="Porkkanakakku (G)"> <select name="pizzas" size="1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                  Juustokakku <input type="checkbox" name="Leivonnainen[]" value="Juustokakku"> <select name="pizzas" size="1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                  Mokkapala<input type="checkbox" name="Leivonnainen[]" value="Mokkapala"><select name="pizzas" size="1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                  Voisilmäpulla<input type="checkbox" name="Leivonnainen[]" value="Voisilmäpulla"><select name="pizzas" size="1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                  Kanelipulla<input type="checkbox" name="Leivonnainen[]" value="Kanelipulla"><select name="pizzas" size="1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                  Sokerimunkki<input type="checkbox" name="Leivonnainen[]" value="Sokerimunkki"><select name="pizzas" size="1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
+                  <fieldset>
+                  <legend>Leivonnainen</legend>
+                  <p><b>Kaikkea kakuista kekseihin.</p></b>
+                  
+                    <input type="number" id="maara" name="maara" min="0" max="5">  
+                   Mudcake<br></label>
+                  
+                    <input type="number" id="maara" name="maara" min="0" max="5">  
+                   Porkkanakakku (G)<br></label>
+                  
+                    <input type="number" id="maara" name="maara" min="0" max="5">  
+                   Juustokakku <br></label>
+                  
+                  <input type="number" id="maara" name="maara" min="0" max="5">  
+                   Mokkapala <br></label>
+                  
+                    <input type="number" id="maara" name="maara" min="0" max="5">  
+                   Voisilmäpulla <br></label>
+                  
+                    <input type="number" id="maara" name="maara" min="0" max="5">  
+                   Kanelipulla <br>
+                  
+                    <input type="number" id="maara" name="maara" min="0" max="5">  
+                   Sokerimunkki
                   </div>
                   </fieldset>
                   <br>
 
                   <fieldset>
-                  <h2>Juomat</h2>
-                  <p>Kahvit ja muut nestemäiset tuotteet.</p>
-                  Espresso<input type="checkbox" name="Juomat[]" value="Espresso"> <br>
-                  Cappuccino<input type="checkbox" name="Leivonnainen[]" value="Cappuccino"> <br>
-                  Latte<input type="checkbox" name="Leivonnainen[]" value="Latte"> <br>
-                  Americano<input type="checkbox" name="Leivonnainen[]" value="Americano"><br> 
-                  Suodatinkahvi<input type="checkbox" name="Leivonnainen[]" value="Suodatinkahvi"> 
-                  Kaakao<input type="checkbox" name="Leivonnainen[]" value="Kaakao"> <br>
-                  Jääkahvi<input type="checkbox" name="Leivonnainen[]" value="Jääkahvi"> 
+                  <legend>Juomat</legend>
+                    <p><b>Kahvit ja muut nestemäiset tuotteet.</p></b>
+                    <input type="number" id="maara" name="maara" min="0" max="5"> Espresso <br>
+                      
+                    <input type="number" id="maara" name="maara" min="0" max="5"> Cappuccino<br>
+                      
+                    <input type="number" id="maara" name="maara" min="0" max="5"> Latte<br>
+                      
+                    <input type="number" id="maara" name="maara" min="0" max="5"> Americano<br> 
+                      
+                    <input type="number" id="maara" name="maara" min="0" max="5"> Suodatinkahvi <br>
+                      
+                    <input type="number" id="maara" name="maara" min="0" max="5"> Kaakao<br>
+                      
+                    <input type="number" id="maara" name="maara" min="0" max="5"> Jääkahvi  
                   </fieldset>
                   <br>
-
-                  <p><input type="submit"></p>
-                  <br>
+                  </div>
+                  <div id="loppu">
+                    <p><input type="submit"></p>
+                    <br>
             </form>
 
             <a href="etusivu.html">Takaisin etusivulle</a>
-        </body>
+        </div>
+      </body>
 	</head>
 </html>
