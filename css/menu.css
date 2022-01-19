@@ -1,0 +1,54 @@
+body {
+  background-color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ff5c03;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 5px;
+  color: #2300bf;
+  font-size: large;
+}
+h2 img {
+  width: 5px;
+  height: 5px;
+}
+
+.tuote {
+  display: flex;
+  gap: 12px;
+}
+
+/* @media screen and (min-width: 6px) {
+  #layout {
+    grid-template-rows: repeat(6, 10px);
+    grid-template-columns: 40px;
+    padding-left: 260px;
+    padding-right: 300px;
+  }
+}
+@media screen and (min-width: 663px) {
+  #layout {
+    grid-template-rows: repeat(6, 190px);
+    grid-template-columns: 400px;
+    padding-left: 260px;
+    padding-right: 300px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #layout {
+    display: grid;
+    grid-row: inherit;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(3, 200px);
+    padding-right: 600px;
+    padding-left: 340px;
+  }
+} */
