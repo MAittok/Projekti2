@@ -16,7 +16,7 @@ body {
     text-shadow: 0.05em 0.05em 0.1em lightslategray;
   }
   h2 {
-    color: #2300bf;
+    color: #010002;
     text-align: center;
     font-size: 1em;
   }
@@ -25,12 +25,12 @@ body {
   }
   
   h3 {
-    color: #ff5c03;
+    color: #000000;
     text-align: center;
     font-size: 1em;
   }
   h4 {
-    color: #2300bf;
+    color: #000000;
     text-align: center;
     font-size: 1em;
     font-style: italic;
@@ -38,7 +38,7 @@ body {
   h0 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 4em;
-    color: #370fe9;
+    color: #000000;
   }
   
   #lokaatio {
