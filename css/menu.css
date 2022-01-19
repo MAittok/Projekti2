@@ -1,7 +1,12 @@
 body {
   background-color: #fff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 0 40px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  margin: 0 40px 80px 40px;
 }
 
 .pää_otsikko {
@@ -28,10 +33,12 @@ ul {
 
 .selostus {
   border-bottom: 3px solid black;
+  padding: 20px 0;
 }
 
 p {
   font-weight: 500;
+  margin: 0;
 }
 
 .juomat {
@@ -72,3 +79,20 @@ p {
     padding-left: 340px;
   }
 } */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  background: rgb(116, 109, 223);
+  background: linear-gradient(
+    180deg,
+    rgba(116, 109, 223, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 50px;
+}
+
+.yhteystiedot {
+  list-style: none;
+}
