@@ -1,0 +1,41 @@
+
+body {
+background-color: #fff;
+margin: 0 10%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+} 
+h1 {
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: normal;
+text-transform: uppercase;
+border-bottom: 1px solid #ff5c03;
+margin-top: 0px;
+font: bold 1.5em "Comic Sans MS";
+color: #1c0972;
+text-shadow: .05em .05em .1em lightslategray;
+}   
+h2 {
+    color: #2300bf;
+    text-align: center;
+    font-size: 1em;
+} h2 p {
+        text-align: justify;
+}
+
+h3 {
+        color: #ff5c03;
+        text-align: center;
+        font-size: 1em;   
+}   h4 {
+        color: #2300bf;
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
+}
+h0 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 4em;
+        color: #370fe9
+}
