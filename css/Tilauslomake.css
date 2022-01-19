@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+    <html lang="fi">
 
+<head>
+  <meta charset="utf-8">
+    <style>
+			body {
+			background-color: #fff;
+			margin: 0 10%;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      display: grid;
+			 } h1, h2, h3, h4, h5, h6{
+       color: #2300bf;
+       } fieldset {
+       color: #2300bf;
+       border-color: #f3cfc3;
+       }
+
+       #layout {
+        display: grid;
+        grid-row: inherit;
+        grid-template-columns: repeat(2, 600px);
+        grid-template-rows: repeat(3, 200px);
+        padding-right: 100px;
+        padding-left: 160px;
+       }
+                           
+     @media screen and (max-width: 1024px) {
+        #layout {
+        grid-template-rows: repeat(6, 250px);
+        grid-template-columns: 400px;
+        padding-left: 300px;
+        padding-right: 300px;
+       }
+      }
+    </style>
+   </div>
