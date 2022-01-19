@@ -3,6 +3,7 @@ body {
     margin: 0 10%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: center;
+    color: white;
   }
   h1 {
     text-align: center;
@@ -12,11 +13,12 @@ body {
     border-bottom: 1px solid #ff5c03;
     margin-top: 0px;
     font: bold 1.5em "Comic Sans MS";
-    color: #000000;
+    color: white;
+
     text-shadow: 0.05em 0.05em 0.1em lightslategray;
   }
   h2 {
-    color: #010002;
+    color: white;
     text-align: center;
     font-size: 1em;
   }
@@ -25,12 +27,12 @@ body {
   }
   
   h3 {
-    color: #000000;
+    color: white;
     text-align: center;
     font-size: 1em;
   }
   h4 {
-    color: #000000;
+    color: white;
     text-align: center;
     font-size: 1em;
     font-style: italic;
@@ -38,7 +40,8 @@ body {
   h0 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 4em;
-    color: #000000;
+    color: white;
+
   }
   
   #lokaatio {
