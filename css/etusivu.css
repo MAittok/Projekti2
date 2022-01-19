@@ -48,13 +48,13 @@ body {
   }
   h5 {
     color: white;
-    height: 50px;
-    line-height: 50px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
-    border: 2px dashed #fdfdfd;
-    width: 100%;
+    border: 1px dashed #fdfdfd;
+    width: 75%;
   }
   span {
     display: inline-block;

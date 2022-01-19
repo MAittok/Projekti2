@@ -16,7 +16,7 @@
               font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
               font-weight: normal;
               text-transform: uppercase;
-              border-bottom: 1px solid #ff5c03;
+              border-bottom: 1px solid #000000;
               margin-top: 0px;
               font: bold 1.5em "Comic Sans MS";
               color: #1c0972;
@@ -79,34 +79,32 @@
 </div>
 
         <body>
+            
+          <h1>
+            <p><b>Tilauslomakkeella saat tuotteemme kuljetettuna haluamaasi osoitteeseen.</b></p>
+          </h1>
+            
+            <fieldset>
             <form action="etusivu.html" method="POST">
               <li>Nimi: <input type="text" name="asiakasnimi"></li>
               <li>Osoite: <input type="text" name="osoite"></li>
               <li>Puhelin: <input type="text" name="puhelin"></li>
               <li>Sähköposti: <input type="text" name="posti"></li>
-
               <li>Lisätietoja: <br><textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Maksmissaan 400 kirjainta."> </textarea></li>
-
+            </fieldset>
               <div id="layout">
 
                   <fieldset>
-                  <h2>Kakku</h2>
-                  <p>Kahvilassa käsintehdyt kakut.</p>
-                  <label><input type="checkbox" name="kakku" min="1" max="100"></label>
-                  </fieldset>
-                  <br>
-
-                  <fieldset>
                   <h2>Leivonnainen</h2>
-                  <p>Mysteeri leivonnainen.</p>
+                  <p>Kaikkea kakuista kekseihin.</p>
                   <label><input type="checkbox" name="leivonnainen" min="1" max="100"></label>
                   </fieldset>
                   <br>
 
                   <fieldset>
-                  <h2>Kahvi</h2>
-                  <p>Kaahvia.</p>
-                  <label><input type="checkbox" name="kahvi" min="1" max="100"></label>
+                  <h2>Juomat</h2>
+                  <p>Kahvit ja muut nestemäiset tuotteet.</p>
+                  <label><input type="checkbox" name="juoma" min="1" max="100"></label>
                   </fieldset>
                   <br>
 
