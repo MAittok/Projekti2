@@ -5,6 +5,8 @@ body {
   margin: 0;
 }
 
+/* CONTENT */
+
 .container {
   margin: 0 40px 80px 40px;
 }
@@ -48,6 +50,8 @@ p {
   border-bottom: 1px solid;
 }
 
+/* END CONTENT */
+
 /* @media screen and (min-width: 6px) {
   #layout {
     grid-template-rows: repeat(6, 10px);
@@ -74,6 +78,8 @@ p {
     padding-left: 340px;
   }
 } */
+
+/* FOOTER */
 
 footer {
   display: flex;
@@ -112,3 +118,5 @@ iframe {
 .footer_tiedot a {
   text-decoration: none;
 }
+
+/* END FOOTER */
