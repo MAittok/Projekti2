@@ -7,7 +7,6 @@
             <style>
             body {
               background-color: #fff;
-              margin: 0 14%;
               font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif
             }
             h1 {
@@ -15,7 +14,6 @@
               font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
               font-weight: normal;
               text-transform: uppercase;
-              margin-top: 0px;
               font: bold 1.2em "Comic Sans MS";
               color: #1c0972;
             }
@@ -55,15 +53,17 @@
             #layout, #kuljetus {
               display: grid;
               grid-row: inherit;
-              grid-template-columns: repeat(2, 1300px);
-              padding-left: 40px;
-              padding-right: 40px;
+              grid-template-columns: repeat(1, 1300px);
+              margin: 0 15.5%;
             }
             @media screen and (max-width: 1024px) {
               #layout {
                 grid-template-columns: repeat(3, 200px);
-                padding-left: 100px;
-                padding-right: 200px;
+                margin: 0 15%;
+              }
+              #kuljetus {
+                grid-row: inherit;
+                grid-template-columns: 591px;
               }
             }
 
@@ -77,7 +77,7 @@
             }
 
             #kuljetus {
-            padding-left: 40px;
+            margin: 0 15.5%;
             }
             footer {
   display: flex;
@@ -88,12 +88,11 @@
     180deg,
     rgba(223, 109, 109, 1) 0%,
     rgba(255, 154, 0, 1) 100%
+    
   );
   padding: 50px;
   -webkit-box-shadow: 0px -6px 11px -4px #000000;
   box-shadow: 0px -6px 11px -4px #000000;
-  margin-left: -175px;
-  margin-right: -175px;
   margin-top: 50px;
 }
 
