@@ -49,6 +49,10 @@ h5 {
   font-size: 1.5em;
   font-style: italic;
   border: 1px dashed #fdfdfd;
+<<<<<<< HEAD
+  width: 40%;
+=======
+>>>>>>> 599c922734249bf597301396dd07873ec65e3636
 }
 a {
   color: rgb(214, 214, 214);
