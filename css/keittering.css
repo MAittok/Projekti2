@@ -1,0 +1,20 @@
+body  {
+    background-color: rgb(255, 233, 215);
+    margin: 0 10%;
+    text-align: center;
+    background-size: contain;
+}
+h1 {
+    text-transform: uppercase;
+    text-shadow: 0,5px;
+    color: rgb(61, 53, 39);
+    font-style: italic;
+    font-size: 2em;
+}
+p {
+ text-align: center;
+ color: rgb(61,53,39);
+ font-style: oblique;
+ font-size: 20px;
+ padding: 20px;
+}
