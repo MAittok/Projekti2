@@ -18,7 +18,7 @@ h1 {
 h2 {
   color: white;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 h2 p {
   text-align: justify;
@@ -113,7 +113,7 @@ iframe {
 }
 
 .footer_tiedot ul {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 0px;
 }
 
