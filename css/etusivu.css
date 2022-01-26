@@ -92,3 +92,26 @@ span {
     padding-right: 200px;
   }
 }
+
+.kartta {
+  -webkit-box-shadow: 5px 5px 22px 5px #000000;
+  box-shadow: 5px 5px 22px 5px #000000;
+  }
+  
+  iframe {
+  width: 100%;
+  height: 100%;
+  }
+  
+  .footer_tiedot ul {
+  margin-top: 50px;
+  }
+  
+  .footer_tiedot li {
+  list-style: none;
+  margin: 10px 0;
+  }
+  
+  .footer_tiedot a {
+  text-decoration: none;
+  }
