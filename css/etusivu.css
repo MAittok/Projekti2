@@ -89,11 +89,11 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  background: rgb(199, 136, 76);
+  background: rgb(134, 90, 48);
   background: linear-gradient(
   180deg,
-  rgb(163, 110, 50) 0%,
-  rgb(71, 47, 10) 100%);
+  rgb(133, 92, 46) 0%,
+  rgb(56, 39, 13) 100%);
   padding: 50px;
   -webkit-box-shadow: 0px -6px 11px -4px #000000;
   box-shadow: 0px -6px 11px -4px #000000;
