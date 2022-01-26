@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/cup1.jpg");
+  background-image: url("../images/cup1.jpg");
   margin: 0 10%;
   font-family: "Quicksand", sans-serif;
   text-align: center;
