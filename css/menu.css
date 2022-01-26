@@ -120,3 +120,34 @@ iframe {
 }
 
 /* END FOOTER */
+
+/* NAV */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(223, 109, 109);
+  background: linear-gradient(
+    180deg,
+    rgba(223, 109, 109, 1) 0%,
+    rgba(255, 154, 0, 1) 100%
+  );
+}
+
+header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+header a:hover {
+  text-decoration: none;
+  /* Väri pitää muuttaa sopivammaksi */
+  color: red;
+}
+
+.nav_right {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 150px;
+}
