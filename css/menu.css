@@ -1,8 +1,9 @@
 body {
-  background-image: url('coffeemachine.jpg');
+  background-image: url("../images/coffeemachine.jpg");
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
   margin: 0;
+  background-size: cover;
 }
 
 /* CONTENT */
