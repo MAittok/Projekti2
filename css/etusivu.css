@@ -75,10 +75,8 @@ span {
 
 #layout {
   display: grid;
-  /* grid-row: inherit; */
-  grid-template-columns: repeat(3, 200px);
-  padding-left: 480px;
-  padding-right: 480px;
+  grid-row: inherit;
+  grid-template-columns: repeat(3, 450px);
   text-shadow: 0.05em 0.05em 0.1em black;
 }
 @media screen and (max-width: 1024px) {
