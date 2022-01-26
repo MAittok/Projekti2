@@ -42,12 +42,8 @@ h0 {
   text-shadow: 0.05em 0.05em 0.1em black;
 }
 h5 {
-  color: rgb(17, 0, 90);
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  font-size: 1.5em;
-  font-style: italic;
+font-size: 1.2em;
+margin: 1em;
 }
 a {
   color: rgb(214, 214, 214);
@@ -64,11 +60,10 @@ span {
 #lokaatio p {
   text-align: center;
 }
-#verkkokauppa {
-  letter-spacing: 0.1em;
-}
-#varoitus {
-  color: rgb(255, 25, 0);
+#linkit, #catering {
+  font-size: 1.5em;
+  height: 35px;
+  margin: 0%;
 }
 
 #layout {
