@@ -92,11 +92,11 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  background: rgb(223, 109, 109);
+  background: rgb(65, 21, 21);
   background: linear-gradient(
   180deg,
-  rgba(223, 109, 109, 1) 0%,
-  rgba(255, 154, 0, 1) 100%
+  rgb(77, 25, 25) 0%,
+  rgb(124, 80, 13) 100%
   
   );
   padding: 50px;
