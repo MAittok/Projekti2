@@ -49,7 +49,10 @@ h5 {
   font-size: 1.5em;
   font-style: italic;
   border: 1px dashed #fdfdfd;
+<<<<<<< HEAD
   width: 40%;
+=======
+>>>>>>> 599c922734249bf597301396dd07873ec65e3636
 }
 a {
   color: rgb(214, 214, 214);
@@ -76,8 +79,11 @@ span {
 #layout {
   display: grid;
   grid-row: inherit;
-  grid-template-columns: repeat(3, 450px);
+  grid-template-columns: repeat(3, 33.3%);
   text-shadow: 0.05em 0.05em 0.1em black;
+  
+  
+  
 }
 @media screen and (max-width: 1024px) {
   #layout {
