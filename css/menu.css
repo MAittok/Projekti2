@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   background-size: cover;
+  color: white;
 }
 
 /* CONTENT */
@@ -35,7 +36,7 @@ ul {
 }
 
 .selostus {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid white;
   padding: 20px 0;
   text-align: center;
 }
