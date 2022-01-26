@@ -89,19 +89,20 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  background: rgb(65, 21, 21);
+  background: rgb(199, 136, 76);
   background: linear-gradient(
-    180deg,
-    rgba(71, 52, 31, 255) 0%,
-    rgba(13, 4, 2, 255) 100%
-  );
+  180deg,
+  rgb(163, 110, 50) 0%,
+  rgb(71, 47, 10) 100%);
   padding: 50px;
   -webkit-box-shadow: 0px -6px 11px -4px #000000;
   box-shadow: 0px -6px 11px -4px #000000;
   margin-top: 50px;
-}
-
-.kartta {
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.1em black;
+  }
+  
+  .kartta {
   -webkit-box-shadow: 5px 5px 22px 5px #000000;
   box-shadow: 5px 5px 22px 5px #000000;
 }
