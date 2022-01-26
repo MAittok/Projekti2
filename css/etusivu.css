@@ -88,7 +88,24 @@ span {
   }
 }
 
-.kartta {
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  background: rgb(223, 109, 109);
+  background: linear-gradient(
+  180deg,
+  rgba(223, 109, 109, 1) 0%,
+  rgba(255, 154, 0, 1) 100%
+  
+  );
+  padding: 50px;
+  -webkit-box-shadow: 0px -6px 11px -4px #000000;
+  box-shadow: 0px -6px 11px -4px #000000;
+  margin-top: 50px;
+  }
+  
+  .kartta {
   -webkit-box-shadow: 5px 5px 22px 5px #000000;
   box-shadow: 5px 5px 22px 5px #000000;
   }
