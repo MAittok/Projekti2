@@ -23,10 +23,10 @@
                <br><textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Max 400 kirjainta."></textarea>
             </fieldset>
             </div>  
-
-            <div class="arvio">
                   <p><b>Anna arvio...</p></b>
-                  
+            <div id="arvio">
+
+               <div class="kahvi">   
                   <label class="rating-label">
                     <strong>kahvilasta</strong>
                     <input
@@ -37,8 +37,8 @@
                       type="range"
                       value="1">
                   </label>
-
-
+</div>
+                <div id="aspa">
                   <label class="rating-label">
                     <strong>asiakaspalvelusta</strong>
                     <input
@@ -49,7 +49,10 @@
                       type="range"
                       value="1">
                   </label>
-                  <strong>keitteringistä</strong>
+                </div>  
+                  
+                <div id="catering">
+                <strong>keitteringistä</strong>
                   <input
                     class="rating"
                     max="5"
@@ -57,6 +60,8 @@
                     step="0.5"
                     type="range"
                     value="1">
+                </div>
+                <div id="nettisivu">
                     <strong>nettisivusta</strong>
                     <input
                       class="rating"
@@ -65,9 +70,10 @@
                       step="0.5"
                       type="range"
                       value="1">
-                  
+            </div>        
             </div>
-            </form>
+            </div>
+          </form>
 
             <a href="etusivu.html">Takaisin etusivulle</a>
         </div>
