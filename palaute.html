@@ -13,15 +13,12 @@
         <body>
             
           <h1>
-            <p><b>Tällä sivulla voit antaa palautetta palvelustamme joko kahvilassa, keitteringissä tai itse nettisivusta!</b></p>
+            <p><b>Tällä sivulla voit antaa palautetta palvelustamme joko kahvilasta, keitteringissä tai itse nettisivusta!</b></p>
           </h1>
             <div id="kuljetus">
-            <fieldset>
             <form action="etusivu.html" method="POST">
-              <legend>Palaute tekstinä</legend>
               <li>Nimi (vapaaehtoinen):<input type="text" name="asiakasnimi"> </li>
                <br><textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Max 400 kirjainta."></textarea>
-            </fieldset>
             </div>  
                   <p><b>Anna arvio...</p></b>
             <div id="arvio">
@@ -70,13 +67,23 @@
                       step="0.5"
                       type="range"
                       value="1">
-            </div>        
+                      
             </div>
-            </div>
+            
+                  
+            
+          </div>
+          
+          <div id="linkit_palaute">
+          <div class="nappi">
+            <input type="submit">
+          </div>
           </form>
-
+          <div class="takaisin">
             <a href="etusivu.html">Takaisin etusivulle</a>
+          </div>
         </div>
+      </div>
         <footer>
           <div class="footer_tiedot">
             <h2>Aukioloajat</h2>

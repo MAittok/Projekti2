@@ -232,7 +232,7 @@ nav a:hover {
 	 gap: 150px;
 }
 .palaute {
-	background: url("../images/kahavi.jpg");
+	background: url("../images/kahavi2.jpg");
 	box-sizing: border-box;
 	color: white;
 	text-shadow: 0.05em 0.05em 0.1em black;
@@ -241,11 +241,6 @@ nav a:hover {
 	text-align: center;
 	color: white;
 }
-#Arvostelu {
-		float: left;
-		height: 46px;
-		padding: 0 10px;
-	}
 
 #arvio {
 	--fill: gold;
@@ -262,8 +257,18 @@ nav a:hover {
 	grid-template-columns: repeat(2, 50%);
 	margin-bottom: 1em;
 	row-gap: 4em;
+	margin-left: 25%;
+	margin-right: 25%;
 }
-
+#linkit_palaute {
+	display: grid;
+	grid-row: inherit;
+	grid-template-rows: 100px;
+	grid-template-columns: repeat 100px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 10%;
+}
 
 footer {
   display: flex;
