@@ -118,7 +118,7 @@ nav a:hover {
 	}
 
 	.otsikko {
-	  font-family: "The Nautigal", cursive;
+	  /* font-family: "The Nautigal", cursive; */
 	  font-size: 6em;
 	  color: white;
 	  text-shadow: 0.05em 0.05em 0.1em black;
