@@ -1,36 +1,34 @@
 <!DOCTYPE html>
     <html lang="fi">
+    <html class="palaute">
 
         <head>
           <meta charset="utf-8">
           <title>KahvilaKeijo | Valikoimastamme löytyy suuri määrä pitkälle 
             kehitettyjä makuja Kahvien maailmasta!</title>
-            <link rel="stylesheet" href="css/tilauslomake.css"/>
+            <link rel="stylesheet" href="css/style-1.css"/>
           
 </div>
 
         <body>
             
           <h1>
-            <p><b>Tilauslomakkeella saat tuotteemme kuljetettuna haluamaasi osoitteeseen.<br> Muista valita kuinka monta kutakin tuotetta haluat!</b></p>
+            <p><b>Tällä sivulla voit antaa palautetta palvelustamme joko kahvilassa, keitteringissä tai itse nettisivusta!</b></p>
           </h1>
             <div id="kuljetus">
             <fieldset>
             <form action="etusivu.html" method="POST">
-              <legend>Kuljetustiedot</legend>
-              <li>Nimi: <input type="text" name="asiakasnimi"></li>
-              <li>Osoite: <input type="text" name="osoite"></li>
-              <li>Puhelin: <input type="text" name="puhelin"></li>
-              <li>Sähköposti: <input type="text" name="posti"></li>
-              Lisätietoja: <br><textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Maksmissaan 400 kirjainta."> </textarea>
+              <legend>Asiakastiedot</legend>
+              <li>Nimi (vapaaehtoinen):<input type="text" name="asiakasnimi"> </li>
+               <br>Lisätietoja:<textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Maksmissaan 400 kirjainta.">Max 400 kirjainta. </textarea>
             </fieldset>
             </div>  
-              <div id="layout">
+              <div id="layoutP">
 
-                  <div class="Leivonnaiset">
+                  <div class="Arvostelu">
                   <fieldset>
-                  <legend>Leivonnainen</legend>
-                  <p><b>Kaikkea kakuista kekseihin.</p></b>
+                  <legend>Arvostelu</legend>
+                  <p><b>Anna arvio 1-5</p></b>
                   
                     <input type="number" id="maara" name="maara" min="0" max="5">  
                    Mudcake<br></label>
@@ -56,28 +54,6 @@
                   </fieldset>
                   <br>
 
-                  <fieldset>
-                  <legend>Juomat</legend>
-                    <p><b>Kahvit ja muut nestemäiset tuotteet.</p></b>
-                    <input type="number" id="maara" name="maara" min="0" max="5"> Espresso <br>
-                      
-                    <input type="number" id="maara" name="maara" min="0" max="5"> Cappuccino<br>
-                      
-                    <input type="number" id="maara" name="maara" min="0" max="5"> Latte<br>
-                      
-                    <input type="number" id="maara" name="maara" min="0" max="5"> Americano<br> 
-                      
-                    <input type="number" id="maara" name="maara" min="0" max="5"> Suodatinkahvi <br>
-                      
-                    <input type="number" id="maara" name="maara" min="0" max="5"> Kaakao<br>
-                      
-                    <input type="number" id="maara" name="maara" min="0" max="5"> Jääkahvi  
-                  </fieldset>
-                  <br>
-                  </div>
-                  <div id="loppu">
-                    <p><input type="submit" value="Valmista tilaus!"><input type="reset"></p>
-                  
             </form>
 
             <a href="etusivu.html">Takaisin etusivulle</a>
@@ -128,4 +104,5 @@
         </footer>
       </body>
 	</head>
+</html>
 </html>
