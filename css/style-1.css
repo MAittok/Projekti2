@@ -118,7 +118,7 @@ nav a:hover {
 	}
 
 	.otsikko {
-	  font-family: "The Nautigal", cursive;
+	  /*font-family: "The Nautigal", cursive; Luettavampi ilman tätä?*/
 	  font-size: 6em;
 	  color: white;
 	  text-shadow: 0.05em 0.05em 0.1em black;
@@ -213,7 +213,7 @@ nav a:hover {
   padding: 0;
  }
  .container {
-	  margin: 0 40px 80px 40px;
+	  margin: 0 40px 0px 40px;
  }
 
 
