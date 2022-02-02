@@ -239,6 +239,25 @@ nav a:hover {
 	text-shadow: 0.05em 0.05em 0.1em black;
 	padding: 25px;
 }
+#Arvostelu {
+		float: left;
+		height: 46px;
+		padding: 0 10px;
+	}
+#arvio {
+	--fill: gold;
+	--fillbg: rgba(100, 100, 100, 0.15);
+	--dir: right;
+	--stars: 5;
+	--starsize: 3rem;
+	--symbol: var(--star);
+	--value: 1;
+	--x: calc(100% * (var(--value) / var(--stars)));
+	--star: url('../images/star.svg')
+	grid-template-columns: repeat(2, 600px);
+	grid-template-rows: repeat(3, 200px);
+	margin-bottom: 1em;
+}
 
 #arvio {
 	--fill: gold;
