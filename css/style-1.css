@@ -73,7 +73,7 @@ nav a:hover {
 	}
 	h3 {
 		margin-bottom: 30px;
-		color: white
+		color: white;
 	}
 	h6 {
 	  line-height: 1px;
@@ -240,7 +240,7 @@ textarea {
 	background: url("../images/kahavi2.jpg");
 	box-sizing: border-box;
 	color: white;
-	text-shadow: 0.05em 0.05em 0.1em black;
+	text-shadow: 0.04em 0.04em 0.085em black;
 	background-size: cover;
 	text-align: center;
 	color: white;
