@@ -3,12 +3,42 @@
 <html class="etusivu">
    <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>KahvilaKeijo | Valikoimastamme löytyy suuri määrä pitkälle 
 		kehitettyjä makuja Kahvien maailmasta!</title>
       <link rel="stylesheet" href="css/style-1.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+	   
+   <style>
+    * {
+      box-sizing: border-box;
+    }
+    .left{
+      padding: 20px;
+      float: left;
+      width: 10%;
+    }
+
+    .main {
+      padding: 20px;
+      float: left;
+      width: 100%;
+    }
+
+    .right {
+      padding: 20px;
+      float: left;
+      width: 20%;
+    }
+
+    @media screen and (max-width: 800px) {
+      .left, .main, .right {
+        width: 100%;
+      }
+    }
+    </style>
    </head>
 	   
 <body>
@@ -25,17 +55,17 @@
 	</nav>
 
 	   <div class="container">
-		<h1 class="otsikko">
+		<h1 style="font-size:10vw;" class="otsikko">
 			Kahvila Keijo
 		 </h1>
 		 <div id="paajuttu">			 
-			<h1 class="custom_h1">Valikoimastamme löytyy suuri määrä pitkälle 
+			<h1 style="font-size:4vw;" class="custom_h1">Valikoimastamme löytyy suuri määrä pitkälle 
 			   kehitettyjä makuja Kahvien maailmasta!
 			</h1>
 		 </div>
 
 		 <div id='lokaatio'>
-			<h2 class="custom_h2">Myymälä</h2>
+			<h2 style="font-size:7vw;" class="custom_h2">Myymälä</h2>
 			<p>Myymälämme sijaitsee lähellä Turun keskustan ydintä, ja sieltä löytyy suuri valikoima
 			   tuotteitamme suoraan leipomolta. Kahvien kylkeen on mahdollista
 			   saada ruokaa joko leivonnaisista lounaaseen asti halutessaan!
@@ -45,52 +75,52 @@
 		 <div id="layout">
 
 		   <div id="linkit" class="section">
-			   <h3 class="custom_h3"><a href="menu.html"> Kahvilan Menu</a></h3>
-			   <p>Menuun kuulu erilaisia kahveja, juomia sekä leivonnaisia!</p>
+			   <h3 style="font-size:3vw;" class="custom_h3"><a href="menu.html"> Kahvilan Menu</a></h3>
+			   <p style="font-size:2vw;">Menuun kuulu erilaisia kahveja, juomia sekä leivonnaisia!</p>
 		   </div>
 		   
 		   <div id="panimo" class="section">
-			<h3 class="custom_h3"><a href="palaute.html"> Palautelomake</a></h3>
-			   <p>
+			<h3 style="font-size:3vw;" class="custom_h3"><a href="palaute.html"> Palautelomake</a></h3>
+			   <p style="font-size:2vw;">
 				Anna meille palautetta ja voita 50€ Lahjakortti!
 			   </p>			   
 		   </div>	
 
 		   <div id="catering" class="section">
-			   <h3 class="custom_h3"><a href="Keittering.html"> Keittering </a></h3>
-			   <p>Catering-palvelumme toimii myös aukiolojen ulkopuolella erikseen sovittuna.</p>
+			   <h3 style="font-size:3vw;" class="custom_h3"><a href="Keittering.html"> Keittering </a></h3>
+			   <p style="font-size:2vw;">Catering-palvelumme toimii myös aukiolojen ulkopuolella erikseen sovittuna.</p>
 		   </div>
 
 		 </div>
 
 		 <footer>
 		   <div class="footer_tiedot">
-			 <h2>Aukioloajat</h2>
+			 <h2 style="font-size:2vw;">Aukioloajat</h2>
 			 <ul>
-			   <h3>Myymälä</h3>
-			   <li>Pe 15-19</li>
-			   <li>La 12-19</li>
+			   <h3 style="font-size:2vw;">Myymälä</h3>
+			   <li  style="font-size:1.5vw;">Pe 15-19</li>
+			   <li  style="font-size:1.5vw;">La 12-19</li>
 			 </ul>
 			 <ul>
-			   <h3>Tilauspalvelut</h3>
-			   <li>Ke-La 12-18</li>
+			   <h3  style="font-size:1.5vw;">Tilauspalvelut</h3>
+			   <li  style="font-size:1.5vw;">Ke-La 12-18</li>
 			 </ul>
 		   </div>
 		   <div class="footer_tiedot">
-			 <h2>Yhteystiedot</h2>
+			 <h2  style="font-size: 2vw;">Yhteystiedot</h2>
 			 <ul>
-			   <li>Eerikinkatu 14 3/4</li>
-			   <li>0400 123 456</li>
-			   <li>info@kahvilakeijo.fi</li>
+			   <li  style="font-size:1.5vw;">Eerikinkatu 14 3/4</li>
+			   <li  style="font-size:1.5vw;">0400 123 456</li>
+			   <li  style="font-size:1.5vw;">info@kahvilakeijo.fi</li>
 			   <li>
 				 <a href="#">
-				   <img src="images/instagram.svg" alt="Instagram" />
+				   <img src="images/instagram.svg" alt="Instagram" style="width:20%;"/>
 				 </a>
 				 <a href="#">
-				   <img src="images/facebook.svg" alt="Facebook" />
+				   <img src="images/facebook.svg" alt="Facebook" style="width:20%;"/>
 				 </a>
 				 <a href="#">
-				   <img src="images/twitter.svg" alt="Twitter" />
+				   <img src="images/twitter.svg" alt="Twitter" style="width:20%;"/>
 				 </a>
 			   </li>
 			 </ul>
