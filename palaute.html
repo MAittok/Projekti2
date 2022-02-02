@@ -3,10 +3,10 @@
     <html class="palaute">
 
         <head>
-          <meta charset="utf-8">
+          <meta charset="UTF-8">
           <title>KahvilaKeijo | Valikoimastamme löytyy suuri määrä pitkälle 
             kehitettyjä makuja Kahvien maailmasta!</title>
-            <link rel="stylesheet" href="css/style-1.css"/>
+            <link rel="stylesheet" type="text/css" href="css/style-1.css"/>
           
 </div>
 
@@ -18,42 +18,55 @@
             <div id="kuljetus">
             <fieldset>
             <form action="etusivu.html" method="POST">
-              <legend>Asiakastiedot</legend>
+              <legend>Palaute tekstinä</legend>
               <li>Nimi (vapaaehtoinen):<input type="text" name="asiakasnimi"> </li>
-               <br>Lisätietoja:<textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Maksmissaan 400 kirjainta.">Max 400 kirjainta. </textarea>
+               <br><textarea name="ohjeet" rows="4"  cols="60" maxlength="400" placeholder="Max 400 kirjainta."></textarea>
             </fieldset>
             </div>  
-              <div id="layoutP">
 
-                  <div class="Arvostelu">
-                  <fieldset>
-                  <legend>Arvostelu</legend>
-                  <p><b>Anna arvio 1-5</p></b>
+            <div class="arvio">
+                  <p><b>Anna arvio...</p></b>
                   
-                    <input type="number" id="maara" name="maara" min="0" max="5">  
-                   Mudcake<br></label>
-                  
-                    <input type="number" id="maara" name="maara" min="0" max="5">  
-                   Porkkanakakku (G)<br></label>
-                  
-                    <input type="number" id="maara" name="maara" min="0" max="5">  
-                   Juustokakku <br></label>
-                  
-                  <input type="number" id="maara" name="maara" min="0" max="5">  
-                   Mokkapala <br></label>
-                  
-                    <input type="number" id="maara" name="maara" min="0" max="5">  
-                   Voisilmäpulla <br></label>
-                  
-                    <input type="number" id="maara" name="maara" min="0" max="5">  
-                   Kanelipulla <br>
-                  
-                    <input type="number" id="maara" name="maara" min="0" max="5">  
-                   Sokerimunkki
-                  </div>
-                  </fieldset>
-                  <br>
+                  <label class="rating-label">
+                    <strong>kahvilasta</strong>
+                    <input
+                      class="rating"
+                      max="5"
+                      oninput="this.style.setProperty('--value', this.value)"
+                      step="0.5"
+                      type="range"
+                      value="1">
+                  </label>
 
+
+                  <label class="rating-label">
+                    <strong>asiakaspalvelusta</strong>
+                    <input
+                      class="rating"
+                      max="5"
+                      oninput="this.style.setProperty('--value', this.value)"
+                      step="0.5"
+                      type="range"
+                      value="1">
+                  </label>
+                  <strong>keitteringistä</strong>
+                  <input
+                    class="rating"
+                    max="5"
+                    oninput="this.style.setProperty('--value', this.value)"
+                    step="0.5"
+                    type="range"
+                    value="1">
+                    <strong>nettisivusta</strong>
+                    <input
+                      class="rating"
+                      max="5"
+                      oninput="this.style.setProperty('--value', this.value)"
+                      step="0.5"
+                      type="range"
+                      value="1">
+                  
+            </div>
             </form>
 
             <a href="etusivu.html">Takaisin etusivulle</a>

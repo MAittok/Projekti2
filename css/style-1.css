@@ -118,7 +118,7 @@ nav a:hover {
 	}
 
 	.otsikko {
-	  /* font-family: "The Nautigal", cursive; */
+	  font-family: "The Nautigal", cursive;
 	  font-size: 6em;
 	  color: white;
 	  text-shadow: 0.05em 0.05em 0.1em black;
@@ -213,7 +213,7 @@ nav a:hover {
   padding: 0;
  }
  .container {
-	  margin: 0 40px 0px 40px;
+	  margin: 0 40px 80px 40px;
  }
 
 
@@ -238,6 +238,21 @@ nav a:hover {
 	color: white;
 	text-shadow: 0.05em 0.05em 0.1em black;
 	padding: 25px;
+}
+
+#arvio {
+	--fill: gold;
+	--fillbg: rgba(100, 100, 100, 0.15);
+	--dir: right;
+	--stars: 5;
+	--starsize: 3rem;
+	--symbol: var(--star);
+	--value: 1;
+	--x: calc(100% * (var(--value) / var(--stars)));
+	--star: url('../images/star.svg')
+	grid-template-columns: repeat(2, 600px);
+	grid-template-rows: repeat(3, 200px);
+	margin-bottom: 1em;
 }
 
 
