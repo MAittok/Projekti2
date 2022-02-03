@@ -11,25 +11,55 @@
       KahvilaKeijo | Our selection includes a large number of advanced
       developed flavors from the world of coffee!
     </title>
-  </head>
-  <body>    
+
+    <style>
+     * {
+       box-sizing: border-box;
+     }
+     .left{
+       padding: 20px;
+       float: left;
+       width: 10%;
+     }
+
+     .main {
+       padding: 20px;
+       float: left;
+       width: 100%;
+     }
+
+     .right {
+       padding: 20px;
+       float: left;
+       width: 20%;
+     }
+
+     @media screen and (max-width: 800px) {
+       .left, .main, .right {
+         width: 100%;
+       }
+     }
+     </style>
+ </head>
+ 
+ <body>
     <nav>
       <div class="nav_left">
-        <h1><a href="etusivu.html">KahvilaKeijo</a></h1>
+        <h1 style="font-size:1vw;"><a href="etusivu.html">KahvilaKeijo</a></h1>
       </div>
       <div class="nav_right">
-        <h3><a href="menu.html">Menu</a></h3>
-        <h3><a href="palaute.html">Feedback</a></h3>
-        <h3><a href="Keittering.html">Keittering</a></h3>
+        <h3 style="font-size:1vw;"><a href="menu.html">Menu</a></h3>
+        <h3 style="font-size:1vw;"><a href="palaute.html">Feedback</a></h3>
+        <h3 style="font-size:1vw;"><a href="Keittering.html">Keittering</a></h3>
       </div>
     </nav>
-    <h1>
+    <h1 style="font-size:2vw;">
       Keijo's Keittering
     </h1>
     <div>
-    <p>Keijo's Keittering offers catering services from weddings to small workplaces. Our Catering Master offers you a tailor-made solution,
+    <p style="font-size:1.3vw;">Keijo's Keittering offers catering services from weddings to small workplaces. Our Catering Master offers you a tailor-made solution,
         for every occasion.
-    <h2>
+    <h2 style="font-size:1.3vw;">
       Offer for catering: info@kahvilakeijo.fi/0400123456
       </h2>
     </p>
@@ -41,40 +71,44 @@
             <div class="gllr.image_block">
               <p>
                 <a rel="images_box504">
-                  <img src="images/catering-promo.webp" width="300px" height="200px">
+                  <img src="images/catering-promo.webp" width="300px" height="200px" style="width:25%; height:25%;">
                 </a>
               </p>
               <div style="width:300px;" class="gllr_single_image_text">&nbsp;</div>
       </code>
-    </div>
-    <footer>
-      <div class="footer_tiedot">
-        <h2>Opening hours</h2>
+    <div>
+      <footer>
+ 		   <div class="footer_tiedot">
+ 			 <h2 style="font-size:1.5vw;">Opening hours</h2>
+ 			 <ul>
+ 			   <h3 style="font-size:1.5vw;">Store</h3>
+ 			   <li style="font-size:1.1vw;">Fri 15-19</li>
+ 			   <li style="font-size:1.1vw;">Sat 12-19</li>
+ 			 </ul>
         <ul>
-          <h3>Store</h3>
-          <li>Fri 15-19</li>
-          <li>Sat 12-19</li>
+          <h3  style="font-size:1.5vw;">Order services</h3>
+          <li  style="font-size:1.1vw;">Wen-Sat 12-18</li>
         </ul>
-      </div>
-      <div class="footer_tiedot">
-        <h2>Contact</h2>
-        <ul>
-          <li>Eerikinkatu 14 3/4</li>
-          <li>0400 123 456</li>
-          <li>info@kahvilakeijo.fi</li>
-          <li>
-            <a href="#">
-              <img src="images/instagram.svg" alt="Instagram" />
-            </a>
-            <a href="#">
-              <img src="images/facebook.svg" alt="Facebook" />
-            </a>
-            <a href="#">
-              <img src="images/twitter.svg" alt="Twitter" />
-            </a>
-          </li>
-        </ul>
-      </div>
+ 		   </div>
+ 		   <div class="footer_tiedot">
+ 			 <h2 style="font-size:1.5vw;">Contact</h2>
+ 			 <ul>
+ 			   <li style="font-size:1.1vw;">Eerikinkatu 14 3/4</li>
+ 			   <li style="font-size:1.1vw;">0400 123 456</li>
+ 			   <li style="font-size:1.1vw;">info@kahvilakeijo.fi</li>
+ 			   <li style="font-size:1.1vw;">
+ 				 <a href="#">
+ 				   <img src="images/instagram.svg" alt="Instagram" style="width:15%"/>
+ 				 </a>
+ 				 <a href="#">
+ 				   <img src="images/facebook.svg" alt="Facebook" style="width:15%"/>
+ 				 </a>
+ 				 <a href="#">
+ 				   <img src="images/twitter.svg" alt="Twitter" style="width:15%"/>
+ 				 </a>
+ 			   </li>
+ 			 </ul>
+ 		  </div>
 
       <div class="kartta">
         <iframe
