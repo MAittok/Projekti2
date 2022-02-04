@@ -4,238 +4,260 @@ html {
 	}
 body {
 	font-family: "Quicksand", sans-serif;
-  text-align: center;
-  color: white;
+	text-align: center;
+	color: white;
 	margin: 0;
-}
+	}
 
 
 a {
-  color: rgb(214, 214, 214);
-}
-	a:hover {
-  color: red;
-}
+	color: rgb(214, 214, 214);
+	}
+	
 a:hover {
-  color: red;
-}
+	color: red;
+	}
+
 nav {
 	display: flex;
-  justify-content: space-around;
-  background: rgb(134, 90, 48);
-  background: linear-gradient(
-    180deg,
-    rgb(202, 134, 56) 0%,
-    rgb(121, 81, 21) 100%
-  );
-  -webkit-box-shadow: 0px 6px 22px -4px #000000;
-  box-shadow: 0px 6px 22px -4px #000000;
-}
-
-	nav h3 {
-   margin: auto 0;
+	justify-content: space-around;
+	background: rgb(134, 90, 48);
+	background: linear-gradient(
+		180deg,
+		rgb(202, 134, 56) 0%,
+		rgb(121, 81, 21) 100%
+		);
+	-webkit-box-shadow: 0px 6px 22px -4px #000000;
+	box-shadow: 0px 6px 22px -4px #000000;
 	}
+
+nav h3 {
+	margin: auto 0;
+	}
+
 nav a {
-  text-decoration: none;
-  color: #000000;
-}
+	text-decoration: none;
+	color: #000000;
+	}
+
 nav a:hover {
-  text-decoration: none;
-  /* Väri pitää muuttaa sopivammaksi */
-  color: red;
-}
-	.nav_left {
+	text-decoration: none;
+	/* Väri pitää muuttaa sopivammaksi */
+	color: red;
+	}
+	
+.nav_left {
   	margin: auto 0;
 	}
-	.nav_right {
+	
+.nav_right {
   	display: flex;
   	justify-content: space-between;
   	padding: 25px;
   	gap: 150px;
 	}
 
-	h1 {
-	  text-transform: uppercase;
-	  text-shadow: 0, 5px;
-	  color: rgb(61, 53, 39);
-	  font-style: italic;
-	  font-size: 2em;
-		color: white
+h1 {
+	text-transform: uppercase;
+	text-shadow: 0, 5px;
+	color: rgb(61, 53, 39);
+	font-style: italic;
+	font-size: 2em;
+	color: white
 	}
-	h2 {
-	  text-transform: uppercase;
-	  text-shadow: 0, 5px;
-	  color: rgb(61, 53, 39);
-	  font-style: italic;
-	  font-size: 1, 5em;
-		margin-bottom: 30px;
-		color: white
+	
+h2 {
+	text-transform: uppercase;
+	text-shadow: 0, 5px;
+	color: rgb(61, 53, 39);
+	font-style: italic;
+	font-size: 1, 5em;
+	margin-bottom: 30px;
+	color: white
 	}
-	h3 {
-		margin-bottom: 30px;
-		color: white;
+	
+h3 {
+	margin-bottom: 30px;
+	color: white;
 	}
-	h6 {
-	  line-height: 1px;
-	  /* color: #2300bf; */
+	
+h6 {
+	line-height: 1px;
+	/* color: #2300bf; */
 	}
-	p {
-	  text-align: center;
-	  color: rgb(61, 53, 39);
-	  font-style: oblique;
-	  font-size: 24px;
-	  padding: 20px;
+	
+p {
+	text-align: center;
+	color: rgb(61, 53, 39);
+	font-style: oblique;
+	font-size: 24px;
+	padding: 20px;
 	}
 
 
 
 .etusivu {
-		background: url("../images/cup1.jpg");
-		background-size: cover;
-		text-align: center;
-		background-size: cover;
-		color: white;
-}
-	.custom_h1 {
-	  text-transform: uppercase;
-	  border-bottom: 4px solid black;
-	  padding-bottom: 20px;
-	  margin-bottom: 30px;
-	  text-shadow: 0.05em 0.05em 0.1em black;
-		text-color: #000000;
+	background: url("../images/cup1.jpg");
+	background-size: cover;
+	text-align: center;
+	background-size: cover;
+	color: white;
 	}
- /*
+	
+.custom_h1 {
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	text-shadow: 0.05em 0.05em 0.1em black;
+	text-color: #000000;
+	}
+ 
+/*
  	.custom_h2 {
 	}
 	.custom_h3 {
 	}
 	*/
-	.custom_h4 {
-	  color: white;
-	  text-align: center;
-	  font-size: 1em;
-	  font-style: italic;
+	
+.custom_h4 {
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	font-style: italic;
 	}
 
-	.otsikko {
-	  /*font-family: "The Nautigal", cursive; Luettavampi ilman tätä?*/
-	  font-size: 6em;
-	  color: white;
-	  text-shadow: 0.05em 0.05em 0.1em black;
-	  margin: 50px;
+.otsikko {
+	/*font-family: "The Nautigal", cursive; Luettavampi ilman tätä?*/
+	font-size: 6em;
+	color: white;
+	text-shadow: 0.05em 0.05em 0.1em black;
+	margin: 50px;
 	}
 
-	.section {
-	  font-size: 1.5em;
-	  display: flex;
-	  align-items: center;
-	  flex-direction: column;
+.section {
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	}
 
+#layout {
+	display: grid;
+	gap: 30px;
+	/* grid-template-columns: repeat(3, 33.3%); */
+	grid-template-columns: 1fr 1fr 1fr;
+	text-shadow: 0.05em 0.05em 0.1em black;
+	margin-bottom: 100px;
+	}
+	
+#lokaatio {
+	font-size: 1.5em;
+	margin-bottom: 100px;
+	}
+	
+@media screen and (max-width: 1024px) {
 	#layout {
-	  display: grid;
-	  gap: 30px;
-	  /* grid-template-columns: repeat(3, 33.3%); */
-	  grid-template-columns: 1fr 1fr 1fr;
-	  text-shadow: 0.05em 0.05em 0.1em black;
-	  margin-bottom: 100px;
-	}
-	#lokaatio {
-	  font-size: 1.5em;
-	  margin-bottom: 100px;
-	}
-	@media screen and (max-width: 1024px) {
-		#layout {
-			grid-template-columns: repeat(3, 200px);
-			padding-left: 100px;
-			padding-right: 200px;
+		grid-template-columns: repeat(3, 200px);
+		padding-left: 100px;
+		padding-right: 200px;
 		}
 	}
 
 .menu{
-	 background: url("../images/coffeemenu.jpg");
-	 background-size: cover;
-	 box-sizing: border-box;
-	 margin: 0;
-	 color: white;
-} 
+	background: url("../images/coffeemenu.jpg");
+	background-size: cover;
+	box-sizing: border-box;
+	margin: 0;
+	color: white;
+	} 
 
- .pää_otsikko {
-   /* color: #ff5c03; */
-   text-align: center;
-   font-size: 3em;
+.pää_otsikko {
+	/* color: #ff5c03; */
+	text-align: center;
+	font-size: 3em;
 	}
- .tuote_otsikko {
-	 text-align: center;
+ 
+.tuote_otsikko {
+	text-align: center;
 	}
- .selostus {
-   border-bottom: 3px solid white;
-   padding: 20px 0;
-   text-align: center;
+ 
+.selostus {
+	border-bottom: 3px solid white;
+	padding: 20px 0;
+	text-align: center;
 	}
- .tuote {
-   display: flex;
-   justify-content: space-between;
-   border-bottom: 1px solid;
+ 
+.tuote {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid;
 	}
- p {
-	  font-weight: 500;
-	  margin: 0;
-		color: white;
+ 
+p {
+	font-weight: 500;
+	margin: 0;
+	color: white;
 	}
- /* @media screen and (min-width: 6px) (Henri/Jimi/Joel. Mihin tämä on tarkoitettu?) {
-	  #layout {
-	    grid-template-rows: repeat(6, 10px);
-	    grid-template-columns: 40px;
-	    padding-left: 260px;
-	    padding-right: 300px;
-	  }
+
+/* @media screen and (min-width: 6px) (Henri/Jimi/Joel. Mihin tämä on tarkoitettu?) {
+	#layout {
+		grid-template-rows: repeat(6, 10px);
+		grid-template-columns: 40px;
+		padding-left: 260px;
+		padding-right: 300px;
+		}
 	}
-	@media screen and (min-width: 663px) {
-	  #layout {
-	    grid-template-rows: repeat(6, 190px);
-	    grid-template-columns: 400px;
-	    padding-left: 260px;
-	    padding-right: 300px;
-	  }
+	
+@media screen and (min-width: 663px) {
+	#layout {
+		grid-template-rows: repeat(6, 190px);
+		grid-template-columns: 400px;
+		padding-left: 260px;
+		padding-right: 300px;
+		}
 	}
-	@media screen and (min-width: 1024px) {
-	  #layout {
-	    display: grid;
-	    grid-row: inherit;
-	    grid-template-columns: repeat(2, 600px);
-	    grid-template-rows: repeat(3, 200px);
-	    padding-right: 600px;
-	    padding-left: 340px;
-	  }
+	
+@media screen and (min-width: 1024px) {
+	#layout {
+		display: grid;
+		grid-row: inherit;
+		grid-template-columns: repeat(2, 600px);
+		grid-template-rows: repeat(3, 200px);
+		padding-right: 600px;
+		padding-left: 340px;
+		}
 	} */
- ul {
-  padding: 0;
- }
- .container {
-	  margin: 0 40px 0px 40px;
- }
-
+ 
+ul {
+	padding: 0;
+	}
+ 
+.container {
+	margin: 0 40px 0px 40px;
+	}
 
 .keittering {
 	background-color: rgb(255, 233, 215);
 	margin: 0 10%;
 	text-align: center;
 	background-size: contain;
-}
+	}
 
 
 .nav_right {
-	 display: flex;
-	 justify-content: space-between;
-	 padding: 20px;
-	 gap: 150px;
-}
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	gap: 150px;
+	}
+
 textarea {
 	resize: none;
 	height: 150px;
 	width: 350px;
-}
+	}
+
 .palaute {
 	background: url("../images/kahavi2.jpg");
 	box-sizing: border-box;
@@ -244,29 +266,30 @@ textarea {
 	background-size: cover;
 	text-align: center;
 	color: white;
-}
+	}
+
 #wrapper form input[type="submit"] {
 	border: 1px solid #d9d9d9;
 	background-color: #efefef;
-  }
+	}
 
 input[type="radio"] {
-  display: none;
-}
+	display: none;
+	}
 
 .tahti {
-  direction: rtl;
-  unicode-bidi: bidi-override;
-}
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	}
 
 label:hover,
 label:hover ~ label {
-  color: orange;
-}
+	color: orange;
+	}
 
 input[type="radio"]:checked ~ label {
-  color: orange;
-}
+	color: orange;
+	}
 
 #arvio {
 	display: grid;
@@ -277,6 +300,7 @@ input[type="radio"]:checked ~ label {
 	margin-left: 25%;
 	margin-right: 25%;
 }
+
 #linkit_palaute {
 	display: grid;
 	grid-row: inherit;
@@ -286,26 +310,27 @@ input[type="radio"]:checked ~ label {
 	margin-right: 25%;
 	margin-bottom: 10%;
 	font-size: 1.5em;
-}
+	}
 
 footer {
-  display: flex;
-  justify-content: space-around;
-  background: rgb(134, 90, 48);
-  background: linear-gradient(
-    180deg,
-    rgb(133, 92, 46) 0%,
-    rgb(56, 39, 13) 100%
-  );
-  padding: 50px;
-  -webkit-box-shadow: 0px -6px 11px -4px #000000;
-  box-shadow: 0px -6px 11px -4px #000000;
-  margin-top: 50px;
-  text-align: center;
-  text-shadow: 0.1em 0.1em 0.1em black;
-  text-align: left;
-}
-	.kartta {
+	display: flex;
+	justify-content: space-around;
+	background: rgb(134, 90, 48);
+	background: linear-gradient(
+		180deg,
+		rgb(133, 92, 46) 0%,
+		rgb(56, 39, 13) 100%
+		);
+	padding: 50px;
+	-webkit-box-shadow: 0px -6px 11px -4px #000000;
+	box-shadow: 0px -6px 11px -4px #000000;
+	margin-top: 50px;
+	text-align: center;
+	text-shadow: 0.1em 0.1em 0.1em black;
+	text-align: left;
+	}
+	
+.kartta {
   	-webkit-box-shadow: 5px 5px 22px 5px #000000;
   	box-shadow: 5px 5px 22px 5px #000000;
 	}
@@ -313,14 +338,45 @@ footer {
   	width: 100%;
   	height: 100%;
 	}
-	.footer_tiedot ul {
+	
+.footer_tiedot ul {
   	margin-top: 50px;
   	padding: 0px;
 	}
-	.footer_tiedot li {
+	
+.footer_tiedot li {
   	list-style: none;
   	margin: 10px 0;
 	}
-	.footer_tiedot a {
+	
+.footer_tiedot a {
   	text-decoration: none;
+	}
+
+* {
+	box-sizing: border-box;
+	}
+  
+.left{
+	padding: 20px;
+	float: left;
+	width: 10%;
+	}
+
+.main {
+	padding: 20px;
+	float: left;
+	width: 100%;
+	}
+
+.right {
+	padding: 20px;
+	float: left;
+	width: 20%;
+	}
+
+@media screen and (max-width: 800px) {
+	.left, .main, .right {
+		width: 100%;
+		}
 	}
