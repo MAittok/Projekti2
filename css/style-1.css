@@ -425,7 +425,7 @@ div.stars {
 	#stars {
 		display: grid;
 		grid-row: inherit;
-		grid-template-rows: repeat(3, 130px);
+		grid-template-rows: repeat(3, 190px);
 		grid-template-columns: none;
 		row-gap: 0px;
 		font-size: 1.7em;
