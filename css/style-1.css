@@ -359,11 +359,7 @@ textarea {
   box-sizing: border-box;
   color: white;
   text-shadow: 0.04em 0.04em 0.085em black;
-<<<<<<< Updated upstream
   background-size: contain;
-=======
-  background-size: cover;
->>>>>>> Stashed changes
   text-align: center;
   color: white;
   background-size: cover;
@@ -377,7 +373,7 @@ div.stars {
   input.star { display: none; }
   
   label.star {
-	float: right;
+	float: center;
 	padding: 10px;
 	font-size: 36px;
 	color: #444;
@@ -406,7 +402,7 @@ div.stars {
   grid-row: inherit;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 70%);
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   row-gap: 30%;
   margin-left: 20%;
   margin-right: 20%;
@@ -422,11 +418,10 @@ div.stars {
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 10%;
-  margin-top: 10%;
   font-size: 1.5em;
 }
 @media screen and (max-width: 1024px) {
-	#arvio {
+	#stars {
 		display: grid;
 		grid-row: inherit;
 		grid-template-rows: repeat(3, 130px);
