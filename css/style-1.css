@@ -357,6 +357,7 @@ textarea {
   background-size:contain;
   text-align: center;
   color: white;
+  background-size: cover;
 }
 
 #wrapper form input[type="submit"] {
