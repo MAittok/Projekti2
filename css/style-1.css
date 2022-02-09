@@ -415,7 +415,7 @@ div.stars {
   grid-row: inherit;
   grid-template-rows: 5em;
   grid-template-columns: repeat 100px;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 10%;
