@@ -359,55 +359,88 @@ textarea {
   box-sizing: border-box;
   color: white;
   text-shadow: 0.04em 0.04em 0.085em black;
+<<<<<<< Updated upstream
   background-size: contain;
+=======
+  background-size: cover;
+>>>>>>> Stashed changes
   text-align: center;
   color: white;
   background-size: cover;
 }
 
-#wrapper form input[type="submit"] {
-  border: 1px solid #d9d9d9;
-  background-color: #efefef;
-}
+div.stars {
+	width: 270px;
+	display: inline-block;
+  }
+  
+  input.star { display: none; }
+  
+  label.star {
+	float: right;
+	padding: 10px;
+	font-size: 36px;
+	color: #444;
+	transition: all .2s;
+  }
+  
+  input.star:checked ~ label.star:before {
+	content: '\2605';
+	color: #FD4;
+	transition: all .25s;
+  }
+  
+  input.star-5:checked ~ label.star:before {
+	color: #FE7;
+  }
+  
+  input.star-1:checked ~ label.star:before { color: #F62; }
+  
+  
+  label.star:before {
+	content: '\2605';
+  }
 
-input[type="radio"] {
-  display: none;
-}
-
-.tahti {
-  direction: rtl;
-  unicode-bidi: bidi-override;
-}
-
-label:hover,
-label:hover ~ label {
-  color: orange;
-}
-
-input[type="radio"]:checked ~ label {
-  color: orange;
-}
-
-#arvio {
+#stars {
   display: grid;
   grid-row: inherit;
   grid-template-columns: repeat(2, 50%);
-  margin-bottom: 1em;
-  row-gap: 10%;
-  margin-left: 25%;
-  margin-right: 25%;
+  grid-template-rows: repeat(2, 70%);
+  margin-bottom: 20%;
+  row-gap: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+
 }
 
 #linkit_palaute {
   display: grid;
   grid-row: inherit;
-  grid-template-rows: 100px;
+  grid-template-rows: 5em;
   grid-template-columns: repeat 100px;
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 10%;
+  margin-top: 10%;
   font-size: 1.5em;
 }
+@media screen and (max-width: 1024px) {
+	#arvio {
+		display: grid;
+		grid-row: inherit;
+		grid-template-rows: repeat(3, 130px);
+		grid-template-columns: none;
+		row-gap: 0px;
+		font-size: 1.7em;
+		text-shadow: 0.07em 0.07em 0.07em black;
+		}
+	.palaute {
+		text-shadow: 0.07em 0.07em 0.07em black;	
+		font-size: 1.3em;
+		margin-bottom: 2em;
+	}
+	}
 
 footer {
   display: flex;
