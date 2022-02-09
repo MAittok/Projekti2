@@ -277,7 +277,7 @@ textarea {
   box-sizing: border-box;
   color: white;
   text-shadow: 0.04em 0.04em 0.085em black;
-  background-size: cover;
+  background-size:contain;
   text-align: center;
   color: white;
 }
