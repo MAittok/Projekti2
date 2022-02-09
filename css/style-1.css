@@ -359,10 +359,9 @@ textarea {
   box-sizing: border-box;
   color: white;
   text-shadow: 0.04em 0.04em 0.085em black;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
   color: white;
-  background-size: cover;
 }
 
 div.stars {
@@ -416,6 +415,7 @@ div.stars {
   grid-row: inherit;
   grid-template-rows: 5em;
   grid-template-columns: repeat 100px;
+  margin-top: 15%;
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 10%;
