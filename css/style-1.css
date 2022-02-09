@@ -292,7 +292,7 @@ p {
 }
 
 p {
-  font-weight: 500;
+  font-weight: 270;
   margin: 0;
   color: white;
 }
@@ -366,7 +366,7 @@ textarea {
 }
 
 div.stars {
-	width: 270px;
+	width: 500;
 	display: inline-block;
   }
   
@@ -407,6 +407,7 @@ div.stars {
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
+  direction: rtl;
 
 }
 
@@ -429,6 +430,7 @@ div.stars {
 		row-gap: 0px;
 		font-size: 1.7em;
 		text-shadow: 0.07em 0.07em 0.07em black;
+    direction: rtl;
 		}
 	.palaute {
 		text-shadow: 0.07em 0.07em 0.07em black;	
