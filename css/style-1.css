@@ -28,6 +28,7 @@ nav {
   );
   -webkit-box-shadow: 0px 6px 22px -4px #000000;
   box-shadow: 0px 6px 22px -4px #000000;
+  text-shadow: none;
 }
 .lang {
   display: flex;
@@ -46,6 +47,19 @@ nav {
   height: 25px;
   margin: auto;
 }
+
+.hidden {
+  display: none;
+  color: red;
+}
+
+.mobile_container {
+  display: none;
+}
+
+/* .mobile_arrow {
+  display: none;
+} */
 
 nav h3 {
   margin: auto 0;
@@ -159,7 +173,6 @@ p {
 #layout {
   display: grid;
   gap: 30px;
-  /* grid-template-columns: repeat(3, 33.3%); */
   grid-template-columns: 1fr 1fr 1fr;
   text-shadow: 0.05em 0.05em 0.1em black;
   margin-bottom: 100px;
@@ -175,6 +188,71 @@ p {
     grid-template-columns: repeat(3, 200px);
     padding-left: 100px;
     padding-right: 200px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(134, 90, 48);
+    background: linear-gradient(
+      180deg,
+      rgb(202, 134, 56) 0%,
+      rgb(121, 81, 21) 100%
+    );
+    -webkit-box-shadow: 0px 6px 22px -4px #000000;
+    box-shadow: 0px 6px 22px -4px #000000;
+  }
+
+  nav h3 {
+    margin: auto 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+  nav a:hover {
+    text-decoration: none;
+    /* Väri pitää muuttaa sopivammaksi */
+    color: red;
+  }
+  .nav_left {
+    margin: auto 0;
+    display: flex;
+    gap: 25px;
+  }
+  .nav_right {
+    display: none;
+  }
+  .mobile_container {
+    display: block;
+    margin: auto 0;
+  }
+
+  .hamburger_menu {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+  }
+  /* .hamburger_menu_container {
+  } */
+  .hamburger_menu li {
+    list-style: none;
+    padding: 20px 0;
+    font-size: 3vh;
+  }
+  .mobile_arrow {
+    display: block;
+    transform: rotate(135deg);
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  p {
+    font-size: 2vmin;
   }
 }
 
@@ -214,7 +292,7 @@ p {
   color: white;
 }
 
-/* @media screen and (min-width: 6px) (Henri/Jimi/Joel. Mihin tämä on tarkoitettu?) {
+/* @media screen and (min-width: 6px) (Etusivun responsiivisuuteen. Matti) {
 	#layout {
 		grid-template-rows: repeat(6, 10px);
 		grid-template-columns: 40px;
@@ -258,12 +336,12 @@ ul {
   background-size: contain;
 }
 
-.nav_right {
+/* .nav_right {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   gap: 150px;
-}
+} */
 
 textarea {
   resize: none;
@@ -272,11 +350,11 @@ textarea {
 }
 
 .palaute {
-  background: url("../images/kahavi2.jpg");
+  background: url("../images/palaute.png");
   box-sizing: border-box;
   color: white;
   text-shadow: 0.04em 0.04em 0.085em black;
-  background-size: cover;
+  background-size:contain;
   text-align: center;
   color: white;
 }
@@ -309,7 +387,7 @@ input[type="radio"]:checked ~ label {
   grid-row: inherit;
   grid-template-columns: repeat(2, 50%);
   margin-bottom: 1em;
-  row-gap: 4em;
+  row-gap: 10%;
   margin-left: 25%;
   margin-right: 25%;
 }
