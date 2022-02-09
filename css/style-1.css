@@ -494,6 +494,7 @@ iframe {
   width:auto;
   padding: 16px;
   margin-top: -50px;
+  margin-left: -350px;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -504,6 +505,7 @@ iframe {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  margin-right: 570px;
 }
 .prev:hover,
 .next:hover {
@@ -519,7 +521,7 @@ iframe {
 .caption-container {
   text-align: center;
   background-color: #222;
-  padding: 2px 16px;
+  padding: 2px 12px;
   color: white;
 }
 .row::after {
