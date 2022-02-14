@@ -113,7 +113,6 @@ h3 {
 
 h6 {
   line-height: 1px;
-  /* color: #2300bf; */
 }
 
 p {
@@ -139,6 +138,9 @@ p {
   margin-bottom: 30px;
   text-shadow: 0.05em 0.05em 0.1em black;
 }
+.custom_h3{
+  font-size: 1.5em;
+}
 
 .custom_h4 {
   color: white;
@@ -152,7 +154,7 @@ p {
   font-size: 3em;
   color: white;
   text-shadow: 0.05em 0.05em 0.1em black;
-  margin: 7%;
+  margin: 4%;
   
 }
 
@@ -173,7 +175,7 @@ p {
 
 #lokaatio {
   font-size: 1.5em;
-  margin-bottom: 100px;
+  margin-bottom: 2em;
 }
 
 @media screen and (max-width: 1024px) {
@@ -248,7 +250,7 @@ p {
     font-size: 3vw;
   }
   p {
-    font-size: 2vmin;
+    font-size: 3.5vmin;
   }
 }
 
@@ -424,6 +426,7 @@ label.star:before {
     font-size: 1.7em;
     text-shadow: 0.07em 0.07em 0.07em black;
     direction: rtl;
+    margin: 0%;
   }
   .palaute {
     text-shadow: 0.07em 0.07em 0.07em black;
@@ -520,9 +523,9 @@ iframe {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 5%;
   margin-top: -50px;
-  margin-left: -20%;
+  margin-left: -25%;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -533,7 +536,7 @@ iframe {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  margin-right: 31%;
+  margin-right: 25%;
 }
 .prev:hover,
 .next:hover {
