@@ -149,10 +149,10 @@ p {
 
 .otsikko {
   /*font-family: "The Nautigal", cursive; Luettavampi ilman tätä?*/
-  font-size: 4em;
+  font-size: 3em;
   color: white;
   text-shadow: 0.05em 0.05em 0.1em black;
-  margin: 10%;
+  margin: 7%;
   
 }
 
@@ -322,7 +322,7 @@ ul {
 }
 
 .container {
-  margin: 0 40px 0px 40px;
+  margin: 0em 3em 0em 3em;
 }
 
 .keittering {
