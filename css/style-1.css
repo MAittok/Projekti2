@@ -149,10 +149,11 @@ p {
 
 .otsikko {
   /*font-family: "The Nautigal", cursive; Luettavampi ilman tätä?*/
-  font-size: 6em;
+  font-size: 4em;
   color: white;
   text-shadow: 0.05em 0.05em 0.1em black;
-  margin: 50px;
+  margin: 10%;
+  
 }
 
 .section {
@@ -178,8 +179,7 @@ p {
 @media screen and (max-width: 1024px) {
   #layout {
     grid-template-columns: repeat(3, 200px);
-    padding-left: 100px;
-    padding-right: 200px;
+    display: contents;
   }
   nav {
     display: flex;
